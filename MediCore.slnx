@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/MediCore.Api/MediCore.Api.csproj" />
+    <Project Path="src/MediCore.Business/MediCore.Business.csproj" />
+    <Project Path="src/MediCore.Common/MediCore.Common.csproj" />
+    <Project Path="src/MediCore.DataAccess/MediCore.DataAccess.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/MediCore.Api.IntegrationTests/MediCore.Api.IntegrationTests.csproj" />
+    <Project Path="tests/MediCore.Business.Tests/MediCore.Business.Tests.csproj" />
+  </Folder>
+</Solution>
