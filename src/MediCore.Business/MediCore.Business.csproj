@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- Business Logic Layer: services, DTOs, validation and business rules. -->
+
+  <ItemGroup>
+    <ProjectReference Include="..\MediCore.DataAccess\MediCore.DataAccess.csproj" />
+    <ProjectReference Include="..\MediCore.Common\MediCore.Common.csproj" />
+  </ItemGroup>
+
+</Project>

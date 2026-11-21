@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- Cross-cutting concerns shared by all layers: constants, exceptions, helpers. No dependencies. -->
+
+</Project>

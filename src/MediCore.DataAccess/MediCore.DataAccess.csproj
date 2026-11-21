@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- Data Access Layer: entities, DbContext, EF Core configurations, migrations and repositories. -->
+
+  <ItemGroup>
+    <!--
+      PrivateAssets="compile" keeps EF Core out of the compile-time surface of the
+      projects that reference this one, so upper layers can only talk to the
+      database through the repository abstractions. The runtime assets still flow.
+    -->
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" PrivateAssets="compile" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MediCore.Common\MediCore.Common.csproj" />
+  </ItemGroup>
+
+</Project>
